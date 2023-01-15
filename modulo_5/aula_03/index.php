@@ -1,8 +1,8 @@
 <?php
 	/*String*/
-	$nome = 'Guilherme';
+	$nome = 'Luiz';
 	/*Valores inteiros*/
-	$idade = 23;
+	$idade = 20;
 
 	echo $idade;
 ?>

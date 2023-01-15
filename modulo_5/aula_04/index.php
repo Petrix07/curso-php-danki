@@ -1,8 +1,8 @@
 <?php
 	/*String*/
-	$nome = 'Guilherme';
+	$nome = 'Luiz';
 	/*Número ou Inteiro*/
-	$idade = '23';
+	$idade = '20';
 	/*Boolean*/
 	$bool = true;
 	/*Doubles*/

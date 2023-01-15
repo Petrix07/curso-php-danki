@@ -6,7 +6,7 @@
 	$arr = array('guilherme','chave2'=>'joao');
 
 	$arr[0] = 'guilherme';
-	$arr[] = 'joao';
+	$arr[]  = 'joao';
 
 	//Arrays Multidimensionais
 

@@ -9,4 +9,3 @@
 			echo 'Class2 instanciada';
 		}
 	}
-?>

@@ -5,5 +5,3 @@
 		public function printOnScreen($par);
 
 	}
-
-?>

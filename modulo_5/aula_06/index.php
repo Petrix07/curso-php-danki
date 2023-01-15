@@ -12,16 +12,16 @@
 
 	//$nome[100] = 'Felipe';
 
-	//$variaveis = ['Guilherme','Joao','Felipe'];
+	//$variaveis = ['Guilherme', 'Joao', 'Felipe'];
 
 	//echo $variaveis[0];
 
-	//$variaveis = array('Guilherme',23,true,10.09);
+	//$variaveis = array('Guilherme', 23, true, 10.09);
 
 
 
-	$informacao['nome'] = 'Guilherme';
-	$informacao['idade'] = 23;
+	$informacao['nome']   = 'Guilherme';
+	$informacao['idade']  = 23;
 	$informacao['cidade'] = 'Florianópolis';
 
 	echo $informacao['nome'];

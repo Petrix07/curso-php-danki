@@ -1,26 +1,26 @@
 <?php
-	class Pessoa{
-		//Objeto pessoa
+class Pessoa
+{
+	//Objeto pessoa
 
-		private $nome = 'Guilherme';
-		private $idade = '23';
-		private $peso = '70kg';
+	private $nome = 'Guilherme';
+	private $idade = '23';
+	private $peso = '70kg';
 
-		public function crescer(){
-			$this->comer();
-			echo 'estou crescendo';
-		}
-
-		private function comer(){
-			echo 'estou comendo';
-		}
-
+	public function crescer()
+	{
+		$this->comer();
+		echo 'estou crescendo';
 	}
 
-	//Instanciar
-	$pessoa = new Pessoa;
-	$pessoa2 = new Pessoa;
+	private function comer()
+	{
+		echo 'estou comendo';
+	}
+}
 
-	$pessoa->crescer();
+//Instanciar
+$pessoa = new Pessoa;
+$pessoa2 = new Pessoa;
 
-?>
+$pessoa->crescer();

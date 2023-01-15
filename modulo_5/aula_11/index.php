@@ -1,32 +1,24 @@
 <?php
-	
 	$numero1 = 10;
 	$numero2 = '11';
 
 	//Operadores MATEMATICOS.
 	/*
 	if($numero1 < $numero2){
-		//Execute tal acao.
+	//Execute tal acao.
 	}else{
-
 	}
-
 	if($numero1 <= $numero2){
-		echo 'execute';
+	echo 'execute';
 	}
-
-
 	if($numero1 > $numero2){
-		//Execute tal acao.
+	//Execute tal acao.
 	}else{
-
 	}
-
 	if($numero1 >= $numero2){
-		echo 'execute';
+	echo 'execute';
 	}
 	*/
-
 
 	$var1 = 'valor1';
 	$var2 = 'valor2';
@@ -35,16 +27,14 @@
 	//Operador Logico `E`
 	/*
 	if(($var1 == $var2) && ($var2 == $var3)){
-		echo 'verdade';
+	echo 'verdade';
 	}
 	*/
 
 	//Operador Logico `OU`
 
-	if(($var1 == $var2 || $var1 == $var3) && $var1 == $var2){
+	if (($var1 == $var2 || $var1 == $var3) && $var1 == $var2) {
 		echo 'verdade';
 	}
-
-
 
 ?>

@@ -13,5 +13,3 @@
 	$teste = new Teste;
 
 	$teste->printOnScreen('Ola mundo');
-
-?>

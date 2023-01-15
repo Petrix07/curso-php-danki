@@ -6,7 +6,7 @@
 	//echo substr($conteudo,0,20);
 
 
-	$nome = 'Guilherme Cherem Grillo';
+	$nome = ' Luiz Fernando Petris';
 
 	$nomes = explode(' ',$nome);
 
@@ -29,6 +29,5 @@
 	//htmlentities que mostra o codigo html na pagina.
 
 	echo htmlentities('<div></div>');
-
 
 ?>

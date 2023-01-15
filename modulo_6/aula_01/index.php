@@ -1,22 +1,21 @@
 <?php
-	
-	$arr = array('Guilherme','joao','felipe','mario');
+
+	$arr = array('Guilherme', 'joao', 'felipe', 'mario');
 
 	/*
 	foreach($arr as $key => $value) {
-		echo $key;
-		echo '=>';
-		echo $value;
-		echo '<hr>';
+	echo $key;
+	echo '=>';
+	echo $value;
+	echo '<hr>';
 	}
 	*/
 
 	/*
 	$total = count($arr);
-
 	for($i = 0; $i < $total; $i++){
-		echo $arr[$i];
-		echo '<br />';
+	echo $arr[$i];
+	echo '<br />';
 	}
 	*/
 

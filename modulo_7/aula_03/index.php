@@ -1,53 +1,53 @@
 <?php
-	
-	class Filha{
 
-		/*protected function funcaoTeste(){
+class Filha
+{
+
+	/*protected function funcaoTeste(){
 			echo 'chamando funcao teste';
 		}
 		*/
 
-		private function funcaoTeste(){
-			echo 'chamando funcao teste';
-		}
-
-		public function mostrarOla(){
-			$this->funcaoTeste();
-			echo '<br />';
-			echo 'Ola mundo';
-		}
-
+	private function funcaoTeste()
+	{
+		echo 'chamando funcao teste';
 	}
 
-	class Pai extends Filha{
+	public function mostrarOla()
+	{
+		$this->funcaoTeste();
+		echo '<br />';
+		echo 'Ola mundo';
+	}
+}
 
-		public function mostrarOla(){
-			parent::mostrarOla();
-			echo '<br />';
-			echo 'nova funcao!';
-		}
+class Pai extends Filha
+{
 
-		public function mostrarTchau(){
-			echo 'Tchau Mundo!';
-			echo '<br />';
-			$this->funcaoTeste();
-		}
-
+	public function mostrarOla()
+	{
+		parent::mostrarOla();
+		echo '<br />';
+		echo 'nova funcao!';
 	}
 
-	//$pai = new Pai;
+	public function mostrarTchau()
+	{
+		echo 'Tchau Mundo!';
+		echo '<br />';
+		$this->funcaoTeste();
+	}
+}
 
-	//$pai->mostrarTchau();
+//$pai = new Pai;
 
-	$pai = new Pai;
+//$pai->mostrarTchau();
 
-	//$pai->mostrarOla();
+$pai = new Pai;
 
-	//$pai->mostrarTchau();
-	$pai->mostrarOla();
+//$pai->mostrarOla();
+
+//$pai->mostrarTchau();
+$pai->mostrarOla();
 
 	//$filha->mostrarOla();
-
-
-
-?>

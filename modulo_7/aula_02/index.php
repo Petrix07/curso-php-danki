@@ -2,7 +2,7 @@
 	include('Exemplo.class.php');
 	//Instancia de objeto!
 	$exemplo = new Exemplo();
-	$exemplo->setVar1('Guilherme');
+	$exemplo->setVar1('Luiz');
 	echo $exemplo->pegaVar1();
 	//$exemplo->var2 = 'Guilherme';
 	echo '<hr />';
@@ -20,4 +20,3 @@
 	//echo Exemplo::$var3;
 
 	//Exemplo::metodoEstatico();
-?>
