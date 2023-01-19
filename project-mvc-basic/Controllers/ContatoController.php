@@ -13,8 +13,8 @@ class ContatoController extends Controller
         $this->view = new Views\MainView('contato');
     }
 
-    public function executar()
+    public function executer()
     {
-        $this->view->render(['titulo' => 'Página Contato']);
+        $this->view->render(['title' => 'Contato']);
     }
 }

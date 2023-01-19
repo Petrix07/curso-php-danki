@@ -1,17 +1,20 @@
 <?php
 
+
 class Application
 {
 
-    public function executar()
+    const   INCLUDE_PATH      = 'http://localhost/curso-php-danki/project-mvc-basic/',
+            INCLUDE_FULL_PATH = self::INCLUDE_PATH . 'Views/pages/templates/';
+
+    public function executer()
     {
-        //echo 'executando';
         $url = ucfirst(isset($_GET['url']) ?  explode('/', $_GET['url'])[0] : 'Home');
         $url .= "Controller";
         if (file_exists('Controllers/' . $url . '.php')) {
             $className = 'Controllers\\' . $url;
             $controller = new $className();
-            $controller->executar();
+            $controller->executer();
         } else {
             die('Não existe esta página');
         }

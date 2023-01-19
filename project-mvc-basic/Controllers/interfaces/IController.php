@@ -4,5 +4,5 @@ namespace Controllers\interfaces;
 
 interface IController
 {
-    public function executar();
+    public function executer();
 }

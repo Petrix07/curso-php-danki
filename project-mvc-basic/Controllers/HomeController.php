@@ -13,8 +13,8 @@ class HomeController extends Controller
         $this->view = new MainView('home');
     }
 
-    public function executar()
+    public function executer()
     {
-        $this->view->render(['titulo' => 'Home']);
+        $this->view->render(['title' => 'Home']);
     }
 }

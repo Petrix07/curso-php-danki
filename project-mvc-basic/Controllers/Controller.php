@@ -9,7 +9,7 @@ abstract class Controller implements IController
     protected $view;
     protected $model;
 
-    public function executar()
+    public function executer()
     {
         $this->view->render();
     }
